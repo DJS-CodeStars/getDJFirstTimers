@@ -136,7 +136,7 @@ def firstTimers(userList, contestID):
             exit(1)
 
 
-contestID = 1914 #int(input("Contest ID: "))
+contestID = int(input("Contest ID: "))
 standings = getContestStandings(contestID)
 if standings is None:
     print("Failed to get contest standings.")
